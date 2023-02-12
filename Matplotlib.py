@@ -27,7 +27,9 @@ plt.plot(y1) # Stačí i jedna souřadnice
 #Druhá tabulka
 
 
-
-
 plt.title("Titulek") # Přidá titulek 
 plt.xlabel("Podtitulek") # Přidá podtitulek souřadnici X (pro bod y = plt.ylabel)
+
+plt.grid(color = 'green', linestyle = '--', linewidth = 0.5) # Přidá zelenou čárkovanou mřížku (pro klasickou mřížku stačí závorku zanechat prázdnou)
+
+plt.show()
